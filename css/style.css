@@ -155,6 +155,7 @@ a{
   position: relative;
   background-size: cover !important;
   background-position: center !important;
+  
 }
 
 .home .slide::before {
@@ -684,7 +685,8 @@ a{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-            background: none !important;
+            /* background: contain !important; */
+            background-size: 100% 100% !important;
   }
   .home .slide .content {
     text-align: center;
@@ -706,6 +708,10 @@ a{
   .about .row .content h3 {
     font-size: 2.5rem;
   }
+  .home .slide{
+    background-size: 100% 100% !important; 
+    background: contain !important; 
+}
 }
 /*# sourceMappingURL=style.css.map */
 
